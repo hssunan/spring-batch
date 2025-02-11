@@ -8,5 +8,7 @@ spring:
       maximum-pool-size: 20
 
   batch:
+    job:
+      enabled: false
     jdbc:
       initialize-schema: always
